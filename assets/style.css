@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 1em 1em 0 1em;;
+  background-color: orange;
+  /* position: relative; */
+}
+
+nav {
+  /* position: absolute;
+  bottom: 0;
+  right: 0; */
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.nav-item {
+  font-size: 1.2em;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0 1em;
+
+}
+
+.nav-item:hover {
+  border-bottom: solid white 2px;
+  color: white;
+}
+
+section {
+
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: grey;
+  padding: 1em;
+  color: white;
+}
+
+.hero-item {
+
+}
+
+.hero-scroll {
+
+}
+
+.about-section {
+
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+  height: 100px;
+
+}
+
+.skills-img {
+  justify-content: flex-start;
+  text-align: left;
+  width: 30%;
+  height: 70%;
+}
+
+.work-section {
+
+}
+
+.contact-section {
+
+}
